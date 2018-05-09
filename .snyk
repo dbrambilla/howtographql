@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - prep-cloud > surge > request > hawk:
+        patched: '2018-05-09T07:23:49.009Z'
+  'npm:minimatch:20160620':
+    - prep-cloud > surge > fstream-ignore > minimatch:
+        patched: '2018-05-09T07:23:49.009Z'
+  'npm:request:20160119':
+    - prep-cloud > surge > request:
+        patched: '2018-05-09T07:23:49.009Z'
+  'npm:tar:20151103':
+    - prep-cloud > surge > tar:
+        patched: '2018-05-09T07:23:49.009Z'
+    - prep-cloud > surge > tar.gz > tar:
+        patched: '2018-05-09T07:23:49.009Z'
