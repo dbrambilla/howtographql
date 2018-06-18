@@ -6,7 +6,7 @@
     "algoliasearch": "^3.24.0",
     "classnames": "^2.2.5",
     "frontmatter": "^0.0.3",
-    "gatsby": "1.0.0-beta.5-alpha.fb30fcd6",
+    "gatsby": "1.9.94",
     "gatsby-link": "git+https://github.com/timsuchanek/gatsby-link",
     "gatsby-plugin-google-analytics": "^1.0.1",
     "gatsby-plugin-offline": "next",
@@ -56,13 +56,16 @@
     "tslint-react": "^3.0.0",
     "typescript": "2.2.1",
     "unist-util-visit": "^1.1.1",
-    "youtube-embed-video": "^1.0.2"
+    "youtube-embed-video": "^1.0.2",
+    "snyk": "^1.83.0"
   },
   "scripts": {
     "start": "gatsby develop",
     "build": "gatsby build",
     "precommit": "lint-staged",
-    "prettier": "prettier --single-quote --no-semi --trailing-comma all --write *.{ts,tsx}"
+    "prettier": "prettier --single-quote --no-semi --trailing-comma all --write *.{ts,tsx}",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -82,5 +85,6 @@
     "tslint-config-standard": "^6.0.1",
     "tslint-loader": "^3.5.3",
     "xmldom": "git+https://github.com/timsuchanek/xmldom#node-list"
-  }
+  },
+  "snyk": true
 }
