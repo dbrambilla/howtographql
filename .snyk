@@ -1,0 +1,49 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - prep-cloud > surge > request > hawk:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:hoek:20180212':
+    - gatsby > hapi > subtext > pez > content > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > sntp > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > boom > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+    - gatsby > postcss-import > pkg-resolve > jspm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+    - gatsby > webpack-validator > joi > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+    - gatsby > hapi > subtext > content > hoek:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:http-signature:20150122':
+    - prep-cloud > surge > request > http-signature:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:lodash:20180130':
+    - gatsby > webpack-configurator > lodash:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:mime:20170907':
+    - prep-cloud > surge > request > form-data > mime:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:minimatch:20160620':
+    - prep-cloud > surge > fstream-ignore > minimatch:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:moment:20170905':
+    - gatsby > webpack-validator > joi > moment:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:request:20160119':
+    - prep-cloud > surge > request:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:tar:20151103':
+    - prep-cloud > surge > tar:
+        patched: '2018-11-20T21:17:06.695Z'
+    - prep-cloud > surge > tar.gz > tar:
+        patched: '2018-11-20T21:17:06.695Z'
+  'npm:tunnel-agent:20170305':
+    - prep-cloud > surge > request > tunnel-agent:
+        patched: '2018-11-20T21:17:06.695Z'
