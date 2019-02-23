@@ -18,7 +18,7 @@
     "gatsby-remark-responsive-iframe": "next",
     "gatsby-remark-responsive-image": "next",
     "gatsby-remark-smartypants": "next",
-    "gatsby-source-filesystem": "next",
+    "gatsby-source-filesystem": "2.0.22",
     "gatsby-transformer-remark": "next",
     "graphcool-graphiql": "^1.8.13",
     "graphcool-styles": "^0.1.31",
