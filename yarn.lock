@@ -3312,9 +3312,10 @@ gatsby-plugin-google-analytics@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-1.0.1.tgz#849b452b6fad7da5c63230b0944e9eb2f3d3959d"
 
-gatsby-plugin-offline@next:
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-1.0.0-beta.3.tgz#4b2a59274f0e202ba78a41c4fe90cb6149239ab9"
+gatsby-plugin-offline@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-1.0.0.tgz#94cbe0b5cee33280ef5394905783ba493c3c2f91"
+  integrity sha1-lMvgtc7jMoDvU5SQV4O6STw8L5E=
   dependencies:
     sw-precache "^5.0.0"
 
@@ -3813,17 +3814,12 @@ graphql-tag@^2.0.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.4.2.tgz#6a63297d8522d03a2b72d26f1b239aab343840cd"
 
-graphql@^0.10.1, graphql@^0.10.3:
+graphql@0.10.3, graphql@^0.10.1, graphql@^0.10.3, graphql@^0.8.2:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.10.3.tgz#c313afd5518e673351bee18fb63e2a0e487407ab"
+  integrity sha1-wxOv1VGOZzNRvuGPtj4qDkh0B6s=
   dependencies:
     iterall "^1.1.0"
-
-graphql@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.8.2.tgz#eb1bb524b38104bbf2c9157f9abc67db2feba7d2"
-  dependencies:
-    iterall "1.0.2"
 
 gray-matter@^2.1.0:
   version "2.1.1"
@@ -4675,10 +4671,6 @@ items@1.x.x, items@^1.1.x:
 items@2.x.x:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/items/-/items-2.1.1.tgz#8bd16d9c83b19529de5aea321acaada78364a198"
-
-iterall@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.0.2.tgz#41a2e96ce9eda5e61c767ee5dc312373bb046e91"
 
 iterall@^1.1.0, iterall@^1.1.1:
   version "1.1.1"
