@@ -3393,9 +3393,10 @@ gatsby-source-filesystem@next:
     pretty-bytes "^4.0.2"
     slash "^1.0.0"
 
-gatsby-transformer-remark@next:
-  version "1.0.0-beta.1"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-1.0.0-beta.1.tgz#5d8a2aa40bd7b9fe0ce412d2b2e4e459ad6de5c7"
+gatsby-transformer-remark@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-1.0.0.tgz#ae77c44a2e35d7ab2b9bd5f29090d29e1a54cf0d"
+  integrity sha1-rnfESi4116srm9XykJDSnhpUzw0=
   dependencies:
     bluebird "^3.5.0"
     gray-matter "^2.1.0"
@@ -3813,17 +3814,12 @@ graphql-tag@^2.0.0:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.4.2.tgz#6a63297d8522d03a2b72d26f1b239aab343840cd"
 
-graphql@^0.10.1, graphql@^0.10.3:
+graphql@0.10.3, graphql@^0.10.1, graphql@^0.10.3, graphql@^0.8.2:
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.10.3.tgz#c313afd5518e673351bee18fb63e2a0e487407ab"
+  integrity sha1-wxOv1VGOZzNRvuGPtj4qDkh0B6s=
   dependencies:
     iterall "^1.1.0"
-
-graphql@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/graphql/-/graphql-0.8.2.tgz#eb1bb524b38104bbf2c9157f9abc67db2feba7d2"
-  dependencies:
-    iterall "1.0.2"
 
 gray-matter@^2.1.0:
   version "2.1.1"
@@ -4675,10 +4671,6 @@ items@1.x.x, items@^1.1.x:
 items@2.x.x:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/items/-/items-2.1.1.tgz#8bd16d9c83b19529de5aea321acaada78364a198"
-
-iterall@1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.0.2.tgz#41a2e96ce9eda5e61c767ee5dc312373bb046e91"
 
 iterall@^1.1.0, iterall@^1.1.1:
   version "1.1.1"
