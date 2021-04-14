@@ -19,7 +19,7 @@
     "gatsby-remark-responsive-image": "next",
     "gatsby-remark-smartypants": "next",
     "gatsby-source-filesystem": "next",
-    "gatsby-transformer-remark": "next",
+    "gatsby-transformer-remark": "4.0.0",
     "graphcool-graphiql": "^1.8.13",
     "graphcool-styles": "^0.1.31",
     "graphql": "^0.10.3",
