@@ -3,10 +3,10 @@
     "graphql": "0.10.3"
   },
   "dependencies": {
-    "algoliasearch": "^3.24.0",
+    "algoliasearch": "^4.0.0",
     "classnames": "^2.2.5",
     "frontmatter": "^0.0.3",
-    "gatsby": "1.0.0-beta.5-alpha.fb30fcd6",
+    "gatsby": "2.0.0",
     "gatsby-link": "git+https://github.com/timsuchanek/gatsby-link",
     "gatsby-plugin-google-analytics": "^1.0.1",
     "gatsby-plugin-offline": "next",
@@ -28,7 +28,7 @@
     "node-fetch": "^1.7.1",
     "parse-numeric-range": "^0.0.2",
     "postcss-cssnext": "^2.11.0",
-    "postcss-inherit": "git+https://github.com/timsuchanek/postcss-inherit#build3",
+    "postcss-inherit": "4.1.0",
     "postcss-simple-vars": "^4.0.0",
     "prep-cloud": "^0.0.8",
     "prismjs": "^1.6.0",
